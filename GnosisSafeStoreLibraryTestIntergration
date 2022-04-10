@@ -123,7 +123,7 @@ const {
     // Get the ContractFactory and Signers here.
 
 
-     provider = await new ethers.providers.InfuraProvider("ropsten", "c8ed01b44b5a4595b3981b2324419e8b")
+     provider = await new ethers.providers.InfuraProvider("ropsten", "")
        
 
        console.log("This is my provider" + provider);
